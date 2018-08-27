@@ -1,0 +1,89 @@
+[{
+        "location": "ABQ/HANGERSTORE (ABQ/HANGERSTORE)",
+        "stockLevel": {
+            "owner": "A319/320",
+            "supplierLocation": "ABQ/MAINSTORE (ABQ/MAINSTORE)",
+            "safetyLevel": 2,
+            "restockLevel": 4,
+            "maxLevel": 5,
+            "action": "MANUAL"
+        },
+        "serviceable": {
+            "available": 5,
+            "reserved": 10,
+            "transferPending": 0,
+            "inKit": 0
+        }
+    },
+    {
+        "location": "ABQ/LINESTORE (ABQ/LINESTORE)",
+        "stockLevel": {
+            "owner": "A319/320",
+            "supplierLocation": "ABQ/MAINSTORE (ABQ/MAINSTORE)",
+            "safetyLevel": 1,
+            "restockLevel": 2,
+            "maxLevel": 4,
+            "action": "MANUAL"
+        },
+        "serviceable": {
+            "available": 27,
+            "reserved": 0,
+            "transferPending": 0,
+            "inKit": 0
+        }
+    },
+    {
+        "location": "ABQ/LINESTORE2 (ABQ/LINESTORE2)",
+        "stockLevel": {
+            "owner": "A319/320",
+            "safetyLevel": 1,
+            "restockLevel": 24,
+            "maxLevel": 3,
+            "action": "MANUAL"
+        }
+    },
+    {
+        "location": "ABQ/HANGERSTORE (ABQ/HANGERSTORE)",
+        "stockLevel": {
+            "owner": "A319/320",
+            "supplierLocation": "ABQ/MAINSTORE (ABQ/MAINSTORE)",
+            "safetyLevel": 2,
+            "restockLevel": 4,
+            "maxLevel": 5,
+            "action": "MANUAL"
+        },
+        "serviceable": {
+            "available": 5,
+            "reserved": 10,
+            "transferPending": 0,
+            "inKit": 0
+        }
+    },
+    {
+        "location": "ABQ/LINESTORE (ABQ/LINESTORE)",
+        "stockLevel": {
+            "owner": "A319/320",
+            "supplierLocation": "ABQ/MAINSTORE (ABQ/MAINSTORE)",
+            "safetyLevel": 1,
+            "restockLevel": 2,
+            "maxLevel": 4,
+            "action": "MANUAL"
+        },
+        "serviceable": {
+            "available": 27,
+            "reserved": 0,
+            "transferPending": 0,
+            "inKit": 0
+        }
+    },
+    {
+        "location": "ABQ/LINESTORE2 (ABQ/LINESTORE2)",
+        "stockLevel": {
+            "owner": "A319/320",
+            "safetyLevel": 1,
+            "restockLevel": 24,
+            "maxLevel": 3,
+            "action": "MANUAL"
+        }
+    }
+]
