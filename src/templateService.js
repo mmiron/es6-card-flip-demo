@@ -1,7 +1,7 @@
 "use strict";
 /* global $, Handlebars */
 
-export default class TemplateService {
+export default class StockLevelCardService {
 
     constructor() {}
 

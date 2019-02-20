@@ -13,17 +13,17 @@ export default class StockLevelCardDemo {
         
         document.addEventListener("DOMContentLoaded", function() {
             // fetch card body template
-            let cardContainer = document.getElementById("cardContainer");
+            let cardContainerEl = document.getElementById("cardContainer");
             TemplateService.fetchTemplate("stock-level-template").done(function(template) {
-                this.initializeStockLevelCards(template, cardContainer);
+                this.initializeStockLevelCards(template, cardContainerEl);
             }.bind(this));
             
             TemplateService.fetchTemplate("template-with-image").done(function(template) {
-                this.initializeImageCards(template, cardContainer);
+                this.initializeImageCards(template, cardContainerEl);
             }.bind(this));
 
             setTimeout(function() {
-                $(cardContainer).find(".rotateCard").on("click",
+                $(cardContainerEl).find(".rotateCard").on("click",
                     function(btn) {
                         this.rotateCard(btn.currentTarget);
                     }.bind(this));
