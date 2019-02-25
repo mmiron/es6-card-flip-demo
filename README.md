@@ -1,4 +1,4 @@
-List Item Summary Demo
+Card Flip Demo
 
 Instructions:
  - npm run install
